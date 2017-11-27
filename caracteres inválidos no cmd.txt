@@ -1,0 +1,11 @@
+# Correção de caracteres inválidos no cmd
+
+1. Se vai fazer aplicações para console, o caminho mais prático é mudar a codificação na sua IDE/editor
+de texto para uma compatível como o OS destino, ao invés de UTF-8
+Notepad++ -> Formatar -> "Codificação em ANSI"
+
+2. Outra opção é configurar a sessão do cmd para UTF-8
+chcp 65001
+
+Voltar configuração do cmd para UFT-8
+chcp 1252
